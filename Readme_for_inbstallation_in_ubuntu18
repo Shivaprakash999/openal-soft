@@ -1,0 +1,28 @@
+Readme 
+
+sudo apt-get update 
+sudo apt-get upgrade
+
+#run all commands as root:
+sudo apt-get install libopenal-dev
+
+git clone git://repo.or.cz/openal-soft.git
+cd openal-soft 
+cd build
+cmake ..
+make
+
+#if no errors then:
+sudo make install
+
+optional
+
+#for python 2.7:
+pip install PyOpenAL
+
+#for python 3:
+pip3 install PyOpenAL
+
+#then:
+sudo apt-get update 
+sudo apt-get upgrade
